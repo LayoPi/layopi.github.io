@@ -9,9 +9,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
         $(document).ready(function(){
             $("button").click(function(){
-                $("img").animate({
-
-                })
+                $("h1").css("color", "red");
+                $("img").css({"border": "solid 2px black"})
+                $("h1").animate({"font-size": "+=2rem"}, 3000)
+                $("h1").animate({"font-size": "-=2rem"}, 3000)
+                var timer = setTimeout(function(){$("h2").css("color","black")},5000)
             })
         })
     </script>
