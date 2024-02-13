@@ -15,6 +15,7 @@ p {
 
 img {
     width: 50%;
+    text-align: center;
 }
 
 .container {
@@ -23,4 +24,8 @@ img {
 
 ul {
     padding-left: 45%;
+}
+
+button {
+    text-align: center;
 }
