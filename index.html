@@ -9,22 +9,20 @@
     <meta name="description" content="A simple website for Web App Development">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $("button").click(function(){
-                $("h1").css("color", "red");
-                $("img").css({"border": "solid 2px black"})
-                $("h1").animate({"font-size": "+=2rem"}, 3000)
-                $("h1").animate({"font-size": "-=2rem"}, 3000)
-                var timer = setTimeout(function(){$("h2").css("color","black")},5000)
-            })
-        })
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("h1").css("color", "red");
+            $("img").css({"border": "solid 2px black"});
+            $("h1").animate({"font-size": "+=2rem"}, 3000);
+            $("h1").animate({"font-size": "-=2rem"}, 3000);
+            var timer = setTimeout(function(){$("h1").css("color","black")},5000);
+        });
+    });
     </script>
 </head>
  
 <body>
     <h1>A Simple HTML & CSS Page</h1>
-
-    <!-- I typically wrap the text around images but I wanted to try something new here, so this time I tried using a table to seperate the image and text. -->
 
     <nav class="container">
         <div>
