@@ -6,16 +6,22 @@ h3 {
     text-align: center;
 }
 
-p {
+.one {
     padding-left: 10%;
     padding-right: 10%;
     width: auto;
     text-align: center;
 }
 
+.two {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: auto;
+    text-align: center;
+}
 img {
     width: 50%;
-    text-align: center;
+    padding-left: 30%;
 }
 
 .container {
