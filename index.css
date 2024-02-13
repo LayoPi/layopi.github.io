@@ -18,3 +18,7 @@ img {
 .container {
     display:flex;
 }
+
+ul {
+    text-align: center;
+}
