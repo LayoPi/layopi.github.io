@@ -7,8 +7,8 @@ h3 {
 }
 
 .one {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 0%;
+    padding-right: 15%;
     width: auto;
     text-align: center;
 }
@@ -33,5 +33,6 @@ ul {
 }
 
 button {
-    text-align: center;
+    padding: 1%;
+    margin-left: 45%;
 }
