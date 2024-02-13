@@ -15,6 +15,6 @@ img {
     width: 50%;
 }
 
-table {
-    border-spacing: 10px;
+.container {
+    display:flex;
 }
