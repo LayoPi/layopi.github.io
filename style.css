@@ -32,6 +32,10 @@
 		margin:0 auto; /* by declaring a width on any block element (like a div), giving it a css property of margin:0 auto will center that block element on page */
 				
 				}
+	
+	img{
+		max-width: 100%;
+	}
 		
 	menu {
 		list-style:none;	/* this removes the bullets from list elements */
